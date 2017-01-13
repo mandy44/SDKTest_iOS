@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AppLovinSDK/AppLovinSDK.h>
 
 @interface ViewController ()
 
@@ -26,4 +27,7 @@
 }
 
 
+- (IBAction)onButtonPush:(id)sender {
+    [ALInterstitialAd show];
+}
 @end

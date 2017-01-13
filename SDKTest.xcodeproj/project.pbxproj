@@ -16,6 +16,16 @@
 		B609CA371E28CDE40097F669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B609CA351E28CDE40097F669 /* LaunchScreen.storyboard */; };
 		B609CA421E28CDE40097F669 /* SDKTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B609CA411E28CDE40097F669 /* SDKTestTests.m */; };
 		B609CA4D1E28CDE40097F669 /* SDKTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B609CA4C1E28CDE40097F669 /* SDKTestUITests.m */; };
+		B609CA5B1E28CE420097F669 /* AppLovinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609CA5A1E28CE420097F669 /* AppLovinSDK.framework */; };
+		B609CA661E28CE920097F669 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609CA5D1E28CE920097F669 /* AdSupport.framework */; };
+		B609CA671E28CE920097F669 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609CA5E1E28CE920097F669 /* AVFoundation.framework */; };
+		B609CA681E28CE920097F669 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609CA5F1E28CE920097F669 /* CoreGraphics.framework */; };
+		B609CA691E28CE920097F669 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609CA601E28CE920097F669 /* CoreMedia.framework */; };
+		B609CA6A1E28CE920097F669 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609CA611E28CE920097F669 /* CoreTelephony.framework */; };
+		B609CA6B1E28CE920097F669 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609CA621E28CE920097F669 /* StoreKit.framework */; };
+		B609CA6C1E28CE920097F669 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609CA631E28CE920097F669 /* SystemConfiguration.framework */; };
+		B609CA6D1E28CE920097F669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609CA641E28CE920097F669 /* UIKit.framework */; };
+		B609CA6E1E28CE920097F669 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609CA651E28CE920097F669 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,16 @@
 		B609CA481E28CDE40097F669 /* SDKTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B609CA4C1E28CDE40097F669 /* SDKTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKTestUITests.m; sourceTree = "<group>"; };
 		B609CA4E1E28CDE40097F669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B609CA5A1E28CE420097F669 /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinSDK.framework; sourceTree = "<group>"; };
+		B609CA5D1E28CE920097F669 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B609CA5E1E28CE920097F669 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B609CA5F1E28CE920097F669 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B609CA601E28CE920097F669 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B609CA611E28CE920097F669 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B609CA621E28CE920097F669 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B609CA631E28CE920097F669 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B609CA641E28CE920097F669 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B609CA651E28CE920097F669 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B609CA661E28CE920097F669 /* AdSupport.framework in Frameworks */,
+				B609CA671E28CE920097F669 /* AVFoundation.framework in Frameworks */,
+				B609CA681E28CE920097F669 /* CoreGraphics.framework in Frameworks */,
+				B609CA691E28CE920097F669 /* CoreMedia.framework in Frameworks */,
+				B609CA6A1E28CE920097F669 /* CoreTelephony.framework in Frameworks */,
+				B609CA6B1E28CE920097F669 /* StoreKit.framework in Frameworks */,
+				B609CA6C1E28CE920097F669 /* SystemConfiguration.framework in Frameworks */,
+				B609CA6D1E28CE920097F669 /* UIKit.framework in Frameworks */,
+				B609CA6E1E28CE920097F669 /* WebKit.framework in Frameworks */,
+				B609CA5B1E28CE420097F669 /* AppLovinSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +117,7 @@
 				B609CA401E28CDE40097F669 /* SDKTestTests */,
 				B609CA4B1E28CDE40097F669 /* SDKTestUITests */,
 				B609CA221E28CDE40097F669 /* Products */,
+				B609CA5C1E28CE920097F669 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +172,23 @@
 				B609CA4E1E28CDE40097F669 /* Info.plist */,
 			);
 			path = SDKTestUITests;
+			sourceTree = "<group>";
+		};
+		B609CA5C1E28CE920097F669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B609CA5A1E28CE420097F669 /* AppLovinSDK.framework */,
+				B609CA5D1E28CE920097F669 /* AdSupport.framework */,
+				B609CA5E1E28CE920097F669 /* AVFoundation.framework */,
+				B609CA5F1E28CE920097F669 /* CoreGraphics.framework */,
+				B609CA601E28CE920097F669 /* CoreMedia.framework */,
+				B609CA611E28CE920097F669 /* CoreTelephony.framework */,
+				B609CA621E28CE920097F669 /* StoreKit.framework */,
+				B609CA631E28CE920097F669 /* SystemConfiguration.framework */,
+				B609CA641E28CE920097F669 /* UIKit.framework */,
+				B609CA651E28CE920097F669 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,8 +476,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SDKTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.applovin.SDKTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -439,8 +492,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SDKTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.applovin.SDKTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -511,6 +569,7 @@
 				B609CA531E28CDE40097F669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B609CA541E28CDE40097F669 /* Build configuration list for PBXNativeTarget "SDKTestTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +578,7 @@
 				B609CA561E28CDE40097F669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B609CA571E28CDE40097F669 /* Build configuration list for PBXNativeTarget "SDKTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +587,7 @@
 				B609CA591E28CDE40097F669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
